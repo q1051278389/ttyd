@@ -70,7 +70,7 @@
                 case '1': // pong
                     break;
                 case '2':
-                    document.title = data;
+                    document.title = "Dockercraft Terminal - "+data;
                     break;
                 case '3':
                     var preferences = JSON.parse(data);
